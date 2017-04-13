@@ -4,6 +4,18 @@
 
 'use strict';
 
-var x = function x() {
-  return 2;
+var a = {
+    type: 'ul',
+    props: {
+        className: 'list'
+    },
+    children: [{
+        type: 'li',
+        props: {},
+        children: ['item 1']
+    }, {
+        type: 'li',
+        props: {},
+        children: ['item 2']
+    }]
 };
