@@ -4,7 +4,7 @@
   "description": "Implementing virtual DOM",
   "main": "index.js",
   "scripts": {
-    "build": "babel index.js --out-file dist/virtual-dom.js"
+    "build": "babel index.jsx --out-dir dist"
   },
   "repository": {
     "type": "git",
